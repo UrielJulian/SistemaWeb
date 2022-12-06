@@ -104,7 +104,20 @@
                                             }
                                         ?>
                                 </tbody>
+                            <div>
+                            <th><a href="../cliente/crearxml.php">CREAR XML</a></th>
+            </div>
+            <div>
+            <th><a href="../cliente/descargarxml.php">DESCARGAR XML</a></th>
+            </div>
+            <th><a href="../cliente/crearjson.php">CREAR JSON</a></th>
+            </div>
+            <div>
+            <th><a href="../cliente/descargarjson.php">DESCARGAR JSON</a></th>
+                            </div>
+                                
                             </table>
+
                         </div>
                     </div>  
             </div>
