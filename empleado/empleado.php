@@ -26,8 +26,6 @@
 				<li><a href="empleado.php">Empleados</a></li>
 				<li><a href="../cliente/cliente.php">Clientes</a></li>
 				<li><a href="../garrafon/garrafon.php">Garrafones</a></li>
-                <li><a href="empleado/json.php">JSON Empleados</a></li>
-				<li><a href="empleado/xml.php">XML Empleados</a></li>
 				<li><a href="#">Bienvenido, <?php echo $_SESSION['nombre']; ?></a>
 				<div>
 

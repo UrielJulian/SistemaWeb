@@ -1,12 +1,5 @@
 <?php
-    include("session.php");
-    //$arch = $_GET['arch'];
-    include("config.php");
-    //Creamos la conexión
-    $conexion = mysqli_connect($server, $user, $pass,$bd) 
-    or die("Ha sucedido un error inexperado en la conexion de la base de datos");
-
-    
+        
     $query = "SELECT * FROM clientes";
     
     $result = mysqli_query($mysqli, $query);    
@@ -17,7 +10,7 @@
     //echo $json_string;
 
     
-    $nombreArch="clientes.json";
+    $nombreArch="cliente.json";
     $archivo = fopen($nombreArch,"w+");
     fwrite($archivo,$json_string);
     fclose($archivo);
@@ -47,4 +40,6 @@
         return $cliente;	
     }    
 ?>
+
+
 
