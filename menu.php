@@ -32,13 +32,5 @@ include './session.php';
             </li>
 			</ul>
 		</nav>
-		<div>
-
-					<ul>
-						<li AGUA PURIFICADA NISSAYA> </li>
-						<li CALIDAD Y PRECIO> </li>
-					</ul>
-			
-		</div>
 </body>
 </html>
